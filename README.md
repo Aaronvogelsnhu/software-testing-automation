@@ -1,27 +1,32 @@
 # Software Testing & Automation – Java
 
 ## Overview
-This project focuses on implementing and testing a contact management system using Java. The goal was to ensure software reliability through unit testing and validation.
+This project implements a contact management system in Java and focuses on ensuring software reliability through unit testing and validation. The system enforces strict input rules and verifies behavior using comprehensive test cases.
 
 ## Technologies Used
 - Java
 - JUnit
 
-## What I Did
-- Developed a contact management system with validation rules
-- Wrote unit tests to verify functionality and edge cases
-- Ensured data integrity through input validation
-- Tested methods for adding, updating, and deleting contacts
+## What I Built
+- Contact model with strict validation rules (ID, name, phone, address)
+- Service layer to manage contacts using a HashMap
+- Methods for adding, updating, deleting, and retrieving contacts
+
+## Testing Approach
+- Wrote unit tests for all core functionality
+- Tested valid and invalid inputs
+- Verified exception handling using assertThrows
+- Ensured data integrity through validation rules
 
 ## Key Skills Demonstrated
 - Unit testing with JUnit
-- Test-driven development concepts
-- Writing and executing test cases
-- Debugging and validation
-- Software quality assurance
+- Writing test cases for edge conditions
+- Input validation and defensive programming
+- Debugging and error handling
+- Software quality assurance practices
 
 ## Outcome
-This project improved my understanding of how testing ensures reliable software. I gained experience writing unit tests and validating code to prevent errors.
+This project strengthened my understanding of how testing improves software reliability. I gained experience writing structured test cases and validating real-world scenarios.
 
 ## How to Run
-Run tests using your IDE or a build tool such as Maven.
+Run tests using your IDE (Eclipse/IntelliJ) or a build tool like Maven.
