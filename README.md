@@ -29,4 +29,4 @@ This project implements a contact management system in Java and focuses on ensur
 This project strengthened my understanding of how testing improves software reliability. I gained experience writing structured test cases and validating real-world scenarios.
 
 ## How to Run
-Run tests using your IDE (Eclipse/IntelliJ) or a build tool like Maven.
+Run the JUnit test files in your IDE (Eclipse, IntelliJ, or with Maven).
